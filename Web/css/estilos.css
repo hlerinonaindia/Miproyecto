@@ -1,0 +1,100 @@
+*{
+    font-family: Arial; Verdana;
+    
+}
+a{
+    color: green;
+}
+
+header, section, aside, footer, nav, article{
+display: block;
+}
+nav ul li{
+    display: inline;
+    border: 1px solid green;
+    margin bottom: 50px;
+    border-radius: 20px;
+    box-shadow: 5px 5px #333333;
+    background-color: #cccccc;
+    margin-right: 10px;
+}
+nav ul li:hover{
+    background-color: yellow;
+}
+
+body{
+    text-aling: center;
+}
+
+section{
+     width: 70%;
+     backgorund-color: #cccccc;
+}
+
+aside{
+     float: left;
+     width: 30%;
+     background-color: #cc33aa;
+}
+
+footer a{
+     clear: both;
+     text-decoration: none;
+     cursor: pointer;
+}
+p{
+
+front-size: 20px;
+
+}
+/*Comentario.*/
+
+#parrafo1{
+    color: #00ff00;
+    font-weigth: bold;
+    border: 3px solid #000000;
+    margin: 100px 30px 40px 30px;
+    padding: 20px;
+    
+    
+}
+
+.colorrojo{color: red;
+}
+
+.botonactivo{
+    background-color: yellow;
+}
+
+
+@font-face {
+    font-family: 'Minuevafuente';
+    src: url('../fuentes/good.ttf');
+    
+}
+
+
+@media only screen and (max-wihtd: 600px) {
+
+section{
+    width:100%;
+    }
+aside{
+    width: 100%;
+    }        
+}
+
+table{
+    border collapse: colapse;
+    backgroundcolor: #f34555;
+    
+}
+
+table,th,td{
+    border: 1px solid #333333
+}
+th,td{
+    padding: 20px;
+}
+    
+}
